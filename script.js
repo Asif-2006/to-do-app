@@ -10,7 +10,7 @@ button.addEventListener("click",()=>{
     li.innerHTML = box.value;
     container.appendChild(li);
     let span = document.createElement("span");
-    span.innerHTML = "\u00d7";
+    span.innerHTML = " ";
     li.appendChild(span);
     // container.style.justifyContent = "space-between";
     // span.style.marginLeft = "284px";
